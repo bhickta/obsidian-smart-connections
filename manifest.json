@@ -1,10 +1,10 @@
 {
-  "id": "smart-connections",
-  "name": "Smart Connections",
-  "author": "Brian Petro",
+  "id": "llm-connections",
+  "name": "LLM-Connections",
+  "author": "Nishant Bhickta",
   "description": "Chat with your notes & see links to related content with Local or Remote models.",
   "minAppVersion": "1.1.0",
-  "authorUrl": "https://smartconnections.app",
+  "authorUrl": "https://github.com/bhickta",
   "isDesktopOnly": false,
   "version": "4.1.8"
 }
