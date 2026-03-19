@@ -21,7 +21,7 @@
     "Embeddings",
     "Notes"
   ],
-  "author": "🌴 Brian (Brian Petro)",
+  "author": "\ud83c\udf34 Brian (Brian Petro)",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/brianpetro/obsidian-smart-connections/issues"
@@ -39,23 +39,23 @@
   "dependencies": {
     "js-tiktoken": "^1.0.19",
     "obsidian": "latest",
-    "smart-blocks": "file:../jsbrains/smart-blocks",
-    "smart-chat-model": "file:../jsbrains/smart-chat-model",
-    "smart-chunks": "file:../jsbrains/smart-chunks",
-    "smart-collections": "file:../jsbrains/smart-collections",
-    "smart-embed-model": "file:../jsbrains/smart-embed-model",
-    "smart-entities": "file:../jsbrains/smart-entities",
-    "obsidian-smart-env": "file:../obsidian-smart-env",
-    "smart-file-system": "file:../jsbrains/smart-fs",
-    "smart-http-request": "file:../jsbrains/smart-http-request",
-    "smart-instruct-model": "file:../jsbrains/smart-instruct-model",
-    "smart-model": "file:../jsbrains/smart-model",
-    "smart-notices": "file:../jsbrains/smart-notices",
-    "smart-settings": "file:../jsbrains/smart-settings",
-    "smart-sources": "file:../jsbrains/smart-sources",
-    "smart-utils": "file:../jsbrains/smart-utils",
-    "smart-view": "file:../jsbrains/smart-view",
-    "smart-context-obsidian": "file:../smart-context-obsidian"
+    "smart-blocks": "*",
+    "smart-chat-model": "*",
+    "smart-chunks": "*",
+    "smart-collections": "*",
+    "smart-embed-model": "*",
+    "smart-entities": "*",
+    "obsidian-smart-env": "*",
+    "smart-file-system": "*",
+    "smart-http-request": "*",
+    "smart-instruct-model": "*",
+    "smart-model": "*",
+    "smart-notices": "*",
+    "smart-settings": "*",
+    "smart-sources": "*",
+    "smart-utils": "*",
+    "smart-view": "*",
+    "smart-context-obsidian": "*"
   },
   "ava": {
     "files": [
@@ -67,7 +67,7 @@
     "require": []
   },
   "workspaces": [
-    "../jsbrains/*",
-    "../smart-context-obsidian"
+    "../plugin_modules/jsbrains/*",
+    "../plugin_modules/smart-context-obsidian"
   ]
 }
